@@ -1,0 +1,118 @@
+# Application Configuration
+app:
+  name: "LLM Evaluation Framework"
+  version: "1.0.0"
+  description: "Comprehensive evaluation framework for RAG systems using multiple judge models"
+
+# Model Configuration
+models:
+  judge:
+    default: "codellama:latest"
+    available:
+      - "codellama:latest"
+      - "mistral:v0.3"
+      - "qwen2.5:latest"
+    # Models known to produce issues - avoid using
+    deprecated:
+      - "deepseek-r1:8b"
+      - "phi3:14b"
+      - "gemma3:latest"
+  
+  embedding:
+    default: "nomic-embed-text"
+    available:
+      - "nomic-embed-text"
+      - "mxbai-embed-large"
+      - "text-embedding-ada-002"  # OpenAI
+
+# Ollama Configuration
+ollama:
+  host: "http://localhost:11434"
+  temperature: 0.0
+
+# File Paths Configuration
+paths:
+  inputs:
+    results: "data/results.csv"
+    ground_truth: "data/ground_truth.csv"
+  outputs:
+    evaluation_output: "outputs/evaluation_by_judge.json"
+  
+  notebooks_dir: "notebooks"
+  logs_dir: "logs"
+  config_dir: "config"
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - "AnswerRelevancy"
+    - "Faithfulness"
+    - "ContextPrecision"
+    - "ContextRecall"
+  
+  # Statistical analysis settings
+  statistics:
+    confidence_level: 0.95
+    significance_threshold: 0.05
+    effect_size_thresholds:
+      small: 0.2
+      medium: 0.5
+      large: 0.8
+    rounding_precision: 4
+
+# Visualization Configuration
+visualization:
+  style: "whitegrid"
+  figure_size:
+    default: [12, 8]
+    heatmap: [16, 12]
+    comprehensive: [20, 15]
+  
+  colors:
+    primary: "#2E86AB"
+    secondary: "#A23B72"
+    accent: "#F18F01"
+    success: "#C73E1D"
+  
+  export:
+    dpi: 300
+    format: "png"
+    transparent: false
+
+# Performance Configuration
+performance:
+  batch_size: 100
+  max_workers: 4
+  timeout_seconds: 300
+  memory_limit_gb: 8
+
+# Logging Configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL. Default: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_rotation:
+    max_bytes: 10485760  # 10MB
+    backup_count: 5
+
+# Docker Configuration
+docker:
+  ollama:
+    host: "ollama"
+    port: 11434
+  
+  volumes:
+    data: "/data"
+    logs: "/logs"
+    config: "/config"
+
+# Development Configuration
+development:
+  debug: false
+  test_dataset_size: 10
+  fast_models:
+    judge: "qwen2.5:3b"
+    embedding: "nomic-embed-text"
+  
+  profiling:
+    enabled: false
+    output_dir: "profiling"
