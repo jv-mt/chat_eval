@@ -1,0 +1,1364 @@
+[
+  {
+    "judge_model": "codellama:latest",
+    "timestamp": "26.10.2025 21:40:43.568848",
+    "models_results": [
+      {
+        "model": "llama3.2:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8828149526136176
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.7252243653851345
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8164352454135266
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8507892212017243
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.559429258344986
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5023067338743341
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.5
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.75
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5023067338743341
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.5
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8418741759807951
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.5
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.75
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5707294647241047
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8326948508280548
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8692161289087093
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "judge_model": "mistral:v0.3",
+    "timestamp": "26.10.2025 22:09:19.928823",
+    "models_results": [
+      {
+        "model": "llama3.2:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.9530053106025665
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.3333333333333333
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.625
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.750342427890574
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.3333333333333333
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.75
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8442447102205062
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.3333333333333333
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8532644713527836
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.75
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5922703640901799
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5325328363303138
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.5325328363303138
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8419699892330611
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 1.0
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.4120573304437136
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.625
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8134177055272495
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 1.0
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.9406108914584523
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": 0.5
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.99999999995
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "judge_model": "qwen2.5:latest",
+    "timestamp": "26.10.2025 22:44:03.040985",
+    "models_results": [
+      {
+        "model": "llama3.2:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.5
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.9634594696528134
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.375
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": 0.5
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8298105761813103
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.375
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to create the data management plan?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8391876478753223
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 0.375
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.8665182493289875
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.6810893441613692
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.3333333333333333
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "What does phase 2 of the thesis process include?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.49999999995
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to name thesis when the work has only one author?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.7903243127851919
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "llama3.2:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.0
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 0.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.49999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "phi3:latest",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.7996504787966364
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.99999999995
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      },
+      {
+        "model": "qwen3:4b",
+        "question": "How to write parenthetical citation in book review?",
+        "metrics": [
+          {
+            "metric": "AnswerAccuracy",
+            "score": NaN
+          },
+          {
+            "metric": "AnswerRelevancy",
+            "score": 0.9289321264827053
+          },
+          {
+            "metric": "ContextPrecision",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "ContextRecall",
+            "score": 1.0
+          },
+          {
+            "metric": "ContextRelevance",
+            "score": NaN
+          },
+          {
+            "metric": "Faithfulness",
+            "score": 1.0
+          },
+          {
+            "metric": "LLMContextPrecisionWithoutReference",
+            "score": 0.9999999999
+          },
+          {
+            "metric": "LLMContextPrecisionWithReference",
+            "score": 0.9999999999
+          }
+        ]
+      }
+    ]
+  }
+]
