@@ -1,0 +1,14 @@
+dotenv
+langchain
+langchain_ollama
+langchain_chroma
+langchain_huggingface
+pandas
+ragas
+matplotlib
+seaborn
+numpy
+statsmodels
+hf_xet
+plotly
+rapidfuzz
