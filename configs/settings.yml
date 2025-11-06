@@ -34,7 +34,7 @@ ollama:
 paths:
   inputs:
     results: "data/results.csv"
-    ground_truth: "data/ground_truth.csv"
+    ground_truth: "reference_data/ground_truth.csv"
   outputs:
     evaluation_output: "outputs/evaluation_by_judge.json"
   
@@ -112,7 +112,7 @@ development:
   fast_models:
     judge: "qwen2.5:3b"
     embedding: "nomic-embed-text"
-  
+
   profiling:
     enabled: false
     output_dir: "profiling"
