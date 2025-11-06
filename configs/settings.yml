@@ -36,7 +36,7 @@ paths:
     results: "data/results.csv"
     ground_truth: "reference_data/ground_truth.csv"
   outputs:
-    evaluation_output: "outputs/evaluation_by_judge.json"
+    evaluation_output: "reference_data/evaluation_by_judge.json"
   
   notebooks_dir: "notebooks"
   logs_dir: "logs"
@@ -116,3 +116,4 @@ development:
   profiling:
     enabled: false
     output_dir: "profiling"
+
