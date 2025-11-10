@@ -66,18 +66,23 @@ git clone https://github.com/jv-mt/chat_eval.git
 cd chat_eval
 ```
 
-2. **Create and activate virtual environment**:
+2. **Install uv package manager**:
 ```bash
-python -m venv .venv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+3. **Create and activate virtual environment**:
+```bash
+uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
-4. **Pull required Ollama models**:
+5. **Pull required Ollama models**:
 ```bash
 # Judge models
 ollama pull codellama:latest
@@ -88,7 +93,7 @@ ollama pull qwen2.5:latest
 ollama pull nomic-embed-text
 ```
 
-5. **Configure the framework** (see [Configuration](#-configuration))
+6. **Configure the framework** (see [Configuration](#-configuration))
 
 ## ⚡ Quick Start
 
