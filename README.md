@@ -548,6 +548,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Jukka Veijanen**
+🔗 LinkedIn: [linkedin.com/in/jukkaveijanen](https://linkedin.com/in/jukkaveijanen)
+🎓 Evaluation of the RAG Chatbot for Thesis Guidance
+📎 Related project: [rag_chat](https://github.com/jv-mt/rag_chat)
 
 ## 🙏 Acknowledgments
 
